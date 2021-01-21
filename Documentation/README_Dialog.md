@@ -24,7 +24,7 @@ public static Dialog Open(GameObject dialogPrefab, DialogButtonType buttons, str
 Dialog.Open(DialogPrefabLarge, DialogButtonType.OK, "Confirmation Dialog, Large, Far", "This is an example of a large dialog with only one button, placed at far interaction range", false);
 ```
 
-### Example of opening Small dialog with single 'OK' button, placed at near interaction range (direct hand interaction):
+### Example of opening Small dialog with two buttons, a 'Yes' button, and a "No" button, placed at near interaction range (direct hand interaction):
 ```c#
 Dialog.Open(DialogPrefabSmall, DialogButtonType.Yes | DialogButtonType.No, "Confirmation Dialog, Small, Far", "This is an example of a small dialog with a choice message, placed at near interaction range", true);
 ```
